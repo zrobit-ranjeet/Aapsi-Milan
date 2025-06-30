@@ -9,10 +9,12 @@ export default function Header() {
           <div className="flex items-center space-x-3 mb-3 md:mb-0">
             <span className="text-3xl">💖</span>
             <div className="flex flex-col">
-              <span className="text-2xl font-bold tracking-tight">
-                Aapsi Milan
-              </span>
-              <span className="text-xs font-light tracking-wider opacity-80">
+              <Link href="/">
+                <span className="text-3xl font-bold tracking-tight">
+                  𝓗𝓮𝓪𝓻𝓽𝓢𝔂𝓷𝓬
+                </span>
+              </Link>
+              <span className="text-xs font-light tracking-wider text-blue-950">
                 Where Hearts Find Harmony
               </span>
             </div>
@@ -21,7 +23,7 @@ export default function Header() {
           {/* Navigation with better spacing and effects */}
           <nav className="flex space-x-6">
             <Link
-              href="/"
+              href="/register-form"
               className="relative px-1 py-2 text-sm font-medium hover:text-pink-100 transition-colors duration-200 group"
             >
               Register
